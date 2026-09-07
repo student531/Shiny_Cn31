@@ -255,8 +255,8 @@ def stop_solver():
         "message": "Stop signal sent",
         "tokens_generated": generation_stats["tokens_generated"]
     })
-
 @app.route('/api/get-token', methods=['GET'])
+@app.route('/get-token', methods=['GET'])
 def get_token():
 
     global tokens_cache
