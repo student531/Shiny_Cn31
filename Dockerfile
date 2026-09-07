@@ -1,5 +1,5 @@
 # Educational Cybersecurity measures purposes: sanitized for safe sharing, review, and classroom-style inspection of the code here.
-FROM python:3.11-slim-bullseye
+FROM python:3.11-slim-bookworm
 
 RUN apt-get update && apt-get install -y \
     curl \
